@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7490B9A0-D933-450F-B66D-E4AF1CEB3149</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyTableViewDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E9C538B93E1F5158DBD90FD7A0FD4DE1376C15DB</key>
+		<string>https://github.com/bradleypj823/MyF2Homework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyTableViewDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E9C538B93E1F5158DBD90FD7A0FD4DE1376C15DB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bradleypj823/MyF2Homework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E9C538B93E1F5158DBD90FD7A0FD4DE1376C15DB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E9C538B93E1F5158DBD90FD7A0FD4DE1376C15DB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyTableViewDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
