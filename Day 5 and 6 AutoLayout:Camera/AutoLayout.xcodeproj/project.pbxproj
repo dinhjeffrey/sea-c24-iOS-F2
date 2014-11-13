@@ -15,6 +15,7 @@
 		A29B7AE71A11C7050029E5DE /* AutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29B7AE61A11C7050029E5DE /* AutoLayoutTests.swift */; };
 		A29B7AF11A11CAA90029E5DE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29B7AF01A11CAA90029E5DE /* Person.swift */; };
 		A29B7AF31A11CE540029E5DE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29B7AF21A11CE540029E5DE /* DetailViewController.swift */; };
+		A29B7BDC1A1462C90029E5DE /* Seattle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A29B7BDB1A1462C90029E5DE /* Seattle.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A29B7AE61A11C7050029E5DE /* AutoLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutTests.swift; sourceTree = "<group>"; };
 		A29B7AF01A11CAA90029E5DE /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		A29B7AF21A11CE540029E5DE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A29B7BDB1A1462C90029E5DE /* Seattle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seattle.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				A29B7AD21A11C7050029E5DE /* ViewController.swift */,
 				A29B7AD41A11C7050029E5DE /* Main.storyboard */,
 				A29B7AF21A11CE540029E5DE /* DetailViewController.swift */,
+				A29B7BDB1A1462C90029E5DE /* Seattle.jpg */,
 				A29B7AF01A11CAA90029E5DE /* Person.swift */,
 				A29B7AD71A11C7050029E5DE /* Images.xcassets */,
 				A29B7AD91A11C7050029E5DE /* LaunchScreen.xib */,
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29B7BDC1A1462C90029E5DE /* Seattle.jpg in Resources */,
 				A29B7AD61A11C7050029E5DE /* Main.storyboard in Resources */,
 				A29B7ADB1A11C7050029E5DE /* LaunchScreen.xib in Resources */,
 				A29B7AD81A11C7050029E5DE /* Images.xcassets in Resources */,
@@ -347,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -415,6 +421,7 @@
 				A29B7AEC1A11C7050029E5DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A29B7AED1A11C7050029E5DE /* Build configuration list for PBXNativeTarget "AutoLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +430,7 @@
 				A29B7AEF1A11C7050029E5DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

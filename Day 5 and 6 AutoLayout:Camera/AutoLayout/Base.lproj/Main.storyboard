@@ -63,45 +63,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D6R-Su-X0g">
-                                <rect key="frame" x="252" y="72" width="97" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="2nr-QU-hTr"/>
-                                    <constraint firstAttribute="width" constant="97" id="LkO-oK-qje"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cHf-5P-H91">
-                                <rect key="frame" x="252" y="110" width="97" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="97" id="LR2-5d-lcu"/>
-                                    <constraint firstAttribute="height" constant="30" id="dWT-We-hx1"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VoQ-dt-nrf">
-                                <rect key="frame" x="180" y="148" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seattle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VoQ-dt-nrf">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
                                 <color key="backgroundColor" red="0.26747486149999999" green="1" blue="0.32945114939999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="Bia-Iz-UU1"/>
-                                    <constraint firstAttribute="width" constant="240" id="qV5-X7-qzR"/>
+                                    <constraint firstAttribute="width" constant="200" id="cF5-sq-8qC"/>
+                                    <constraint firstAttribute="height" constant="200" id="imu-tg-Fp7"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qrc-fP-ZKR">
+                                <rect key="frame" x="273" y="562" width="54" height="30"/>
+                                <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="camerButtonPressed:" destination="ql4-Sg-c6D" eventType="touchUpInside" id="zrU-2z-yDX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="D6R-Su-X0g" secondAttribute="centerX" id="FEE-tw-0sr"/>
-                            <constraint firstItem="cHf-5P-H91" firstAttribute="leading" secondItem="D6R-Su-X0g" secondAttribute="leading" id="K9x-4g-lSm"/>
-                            <constraint firstAttribute="centerX" secondItem="VoQ-dt-nrf" secondAttribute="centerX" id="akp-Qm-FdS"/>
-                            <constraint firstItem="cHf-5P-H91" firstAttribute="top" secondItem="D6R-Su-X0g" secondAttribute="bottom" constant="8" id="d3N-1t-uIe"/>
-                            <constraint firstItem="VoQ-dt-nrf" firstAttribute="top" secondItem="cHf-5P-H91" secondAttribute="bottom" constant="8" id="gGd-zW-DzC"/>
-                            <constraint firstItem="D6R-Su-X0g" firstAttribute="top" secondItem="C9k-Or-cPV" secondAttribute="bottom" constant="8" id="yx0-Pd-pIp"/>
+                            <constraint firstAttribute="centerX" secondItem="Qrc-fP-ZKR" secondAttribute="centerX" id="0Rp-Q7-4f5"/>
+                            <constraint firstAttribute="centerY" secondItem="VoQ-dt-nrf" secondAttribute="centerY" id="lcV-oY-YMl"/>
+                            <constraint firstAttribute="centerX" secondItem="VoQ-dt-nrf" secondAttribute="centerX" id="oQH-hr-PRd"/>
+                            <constraint firstItem="KOm-SD-aga" firstAttribute="top" secondItem="Qrc-fP-ZKR" secondAttribute="bottom" constant="8" id="vxz-bN-Nw0"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="firstNameTextField" destination="D6R-Su-X0g" id="BJK-Qf-C50"/>
+                        <outlet property="imageView" destination="VoQ-dt-nrf" id="009-d6-J1y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vRI-Wz-pU6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -127,4 +114,7 @@
             <point key="canvasLocation" x="242" y="136"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Seattle.jpg" width="1024" height="703"/>
+    </resources>
 </document>
