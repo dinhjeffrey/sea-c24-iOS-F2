@@ -16,6 +16,8 @@
 		A29B7AF11A11CAA90029E5DE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29B7AF01A11CAA90029E5DE /* Person.swift */; };
 		A29B7AF31A11CE540029E5DE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29B7AF21A11CE540029E5DE /* DetailViewController.swift */; };
 		A29B7BDC1A1462C90029E5DE /* Seattle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A29B7BDB1A1462C90029E5DE /* Seattle.jpg */; };
+		A2B5A9291A1AFAB90061D9C7 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5A9281A1AFAB90061D9C7 /* PersonTableViewCell.swift */; };
+		A2B5A92B1A1B06790061D9C7 /* Roster.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2B5A92A1A1B06790061D9C7 /* Roster.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		A29B7AF01A11CAA90029E5DE /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		A29B7AF21A11CE540029E5DE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A29B7BDB1A1462C90029E5DE /* Seattle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seattle.jpg; sourceTree = "<group>"; };
+		A2B5A9281A1AFAB90061D9C7 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		A2B5A92A1A1B06790061D9C7 /* Roster.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Roster.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				A29B7AD01A11C7050029E5DE /* AppDelegate.swift */,
 				A29B7AD21A11C7050029E5DE /* ViewController.swift */,
 				A29B7AD41A11C7050029E5DE /* Main.storyboard */,
+				A2B5A9281A1AFAB90061D9C7 /* PersonTableViewCell.swift */,
 				A29B7AF21A11CE540029E5DE /* DetailViewController.swift */,
 				A29B7BDB1A1462C90029E5DE /* Seattle.jpg */,
 				A29B7AF01A11CAA90029E5DE /* Person.swift */,
@@ -100,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				A29B7ACF1A11C7050029E5DE /* Info.plist */,
+				A2B5A92A1A1B06790061D9C7 /* Roster.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -204,6 +210,7 @@
 				A29B7BDC1A1462C90029E5DE /* Seattle.jpg in Resources */,
 				A29B7AD61A11C7050029E5DE /* Main.storyboard in Resources */,
 				A29B7ADB1A11C7050029E5DE /* LaunchScreen.xib in Resources */,
+				A2B5A92B1A1B06790061D9C7 /* Roster.plist in Resources */,
 				A29B7AD81A11C7050029E5DE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +232,7 @@
 				A29B7AF11A11CAA90029E5DE /* Person.swift in Sources */,
 				A29B7AD31A11C7050029E5DE /* ViewController.swift in Sources */,
 				A29B7AD11A11C7050029E5DE /* AppDelegate.swift in Sources */,
+				A2B5A9291A1AFAB90061D9C7 /* PersonTableViewCell.swift in Sources */,
 				A29B7AF31A11CE540029E5DE /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
