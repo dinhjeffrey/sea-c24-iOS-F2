@@ -14,11 +14,19 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UIImagePicker
     @IBOutlet weak var firstNameTextField: UITextField!
     var imagePickerController = UIImagePickerController()
     
+    var selectedPerson : Person?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //self.firstNameTextField.delegate = self
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        self.selectedPerson?.firstName = self.firstNameTextField.text
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {

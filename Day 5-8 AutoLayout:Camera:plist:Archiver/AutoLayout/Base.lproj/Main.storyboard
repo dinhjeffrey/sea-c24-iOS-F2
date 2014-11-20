@@ -60,7 +60,7 @@
                                             <outlet property="nameLabel" destination="nKp-Rs-aSj" id="UcY-au-BkS"/>
                                             <outlet property="personImageView" destination="Yk9-TK-vfy" id="any-ZH-uDY"/>
                                             <outlet property="subNameLabel" destination="BqR-xj-JFg" id="FnX-E4-Sgx"/>
-                                            <segue destination="ql4-Sg-c6D" kind="show" id="D12-gi-O4B"/>
+                                            <segue destination="ql4-Sg-c6D" kind="show" identifier="SHOW_DETAIL" id="D12-gi-O4B"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -148,6 +148,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="firstNameTextField" destination="yKj-bB-7fq" id="a5D-TF-j7O"/>
                         <outlet property="imageView" destination="VoQ-dt-nrf" id="009-d6-J1y"/>
                     </connections>
                 </viewController>
